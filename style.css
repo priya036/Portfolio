@@ -153,6 +153,7 @@ p {
 .action__btns {
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 
 .action__btns button {
@@ -271,12 +272,12 @@ p {
 }
 
 .introduction {
-    color: purple;
+    color: #9333ea;
 }
 
 .classics {
     font-style: italic;
-    color: purple;
+    color:#9333ea;
 }
 
 .connect-container {
@@ -356,7 +357,7 @@ h2 {
 }
 
 .skills-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -366,13 +367,17 @@ h2 {
     box-shadow: 0 4px 8px 0;
     margin: 0 auto;
     margin-top: 10px;
-
+    background-color: #f8f9fa;
 }
 
 .skill-item {
     opacity: 0;
     margin-bottom: 20px;
     animation: fadeIn 1s ease-in-out forwards;
+    background-color: #e2e8f0;
+    padding: 20px; /* Adjusted padding to accommodate the wider progress bar */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes fadeIn {
@@ -387,48 +392,51 @@ h2 {
 
 .skill-label {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .skill-name {
     display: inline-block;
-    width: 150px;
+    width: 300px;
     text-align: left;
     margin-right: 10px;
 }
 
 .animated-progress {
-    height: 15px;
-    color: white;
-    font-size: 10px;
-    text-align: right;
+    height: 20px; /* Adjusted height for a wider progress bar */
+    border-radius: 10px; /* Adjusted border-radius to maintain a rounded appearance */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(147, 51, 234, 0.2);
 }
 
 .animated-progress span {
     display: block;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, #9333ea, #9333ea);
-    border-radius: 8px;
+    border-radius: 10px;
     transition: width 1s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .skill-item:nth-child(1) .animated-progress span {
     width: 80%;
+    background: linear-gradient(to right, #a8cde6, #9333ea);
 }
 
 .skill-item:nth-child(2) .animated-progress span {
     width: 70%;
+    background: linear-gradient(to right, #a8cde6, #9333ea);
 }
 
 .skill-item:nth-child(3) .animated-progress span {
     width: 60%;
+    background: linear-gradient(to right, #a8cde6, #9333ea);
 }
 
 .skill-item:nth-child(4) .animated-progress span {
     width: 75%;
+    background: linear-gradient(to right, #a8cde6, #9333ea);
 }
-
 /* professional skillset ends */
 
 
