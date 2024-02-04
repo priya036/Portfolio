@@ -420,22 +420,22 @@ h2 {
 
 .skill-item:nth-child(1) .animated-progress span {
     width: 80%;
-    background: linear-gradient(to right, #a8cde6, #9333ea);
+    background: linear-gradient(to right,#79bbe8, #9333ea);
 }
 
 .skill-item:nth-child(2) .animated-progress span {
     width: 70%;
-    background: linear-gradient(to right, #a8cde6, #9333ea);
+    background: linear-gradient(to right, #79bbe8, #9333ea);
 }
 
 .skill-item:nth-child(3) .animated-progress span {
     width: 60%;
-    background: linear-gradient(to right, #a8cde6, #9333ea);
+    background: linear-gradient(to right, #79bbe8, #9333ea);
 }
 
 .skill-item:nth-child(4) .animated-progress span {
     width: 75%;
-    background: linear-gradient(to right, #a8cde6, #9333ea);
+    background: linear-gradient(to right,#79bbe8, #9333ea);
 }
 /* professional skillset ends */
 
